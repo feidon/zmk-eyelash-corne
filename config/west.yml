@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: gpeye
-      url-base: https://github.com/GPeye
+    - name: m165437
+      url-base: https://github.com/M165437
     - name: englmaxi
       url-base: https://github.com/englmaxi
   projects:
@@ -14,9 +14,9 @@ manifest:
       remote: zmkfirmware
       revision: v0.3.0
       import: app/west.yml
-    - name: hammerbeam-slideshow
-      remote: gpeye
-      revision: main
+    - name: nice-view-gem
+      remote: m165437
+      revision: v0.3.0
     - name: zmk-dongle-display
       remote: englmaxi
       revision: v0.3
